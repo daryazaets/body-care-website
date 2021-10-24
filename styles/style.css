@@ -2,44 +2,67 @@
     margin: 0;
 }
 
-.title-logo-image {
-    margin-left: 100px;
+.content {
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.title-container {
+.title-logo-image {}
+
+.header-container {
     display: flex;
-    margin-bottom: 200px;
-    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
 }
 
 input {
-    margin-left: 850px;
-    margin-top: 37px;
-    padding: auto;
     outline: none;
     border: none;
     width: 232px;
     height: 25px;
     border-color: #F3F4F6;
-    border-radius: 25px;
     background-color: #F3F4F6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
+    margin-bottom: 4px;
     /* background: url(loupe.svg) no-repeat;
     background-position: 10px;*/
 }
 
-.button1 {
+.cart-button {
     margin-left: 5px;
-    margin-top: 39px;
     border: 0;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
-.button1:hover {
+.cart-button:hover {
     background: #ffffff;
-    height: 30px;
-    width: 30px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-right-container {
+    background-image: url(/images/ellipses.png);
+    height: 612px;
+    width: 730px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin-left: 64px;
+    background-position-x: 40px;
+}
+
+.hero-right-container h2 {
+    max-width: 60%;
 }
 
 .main-logo-image {
@@ -107,15 +130,6 @@ input {
     text-align: center;
 }
 
-.text-title {
-    margin-bottom: 400px;
-    margin-left: 100px;
-    margin-top: 21px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    color: #284664;
-}
-
 .h1-h2-tittle {
     top: 250px;
 }
@@ -131,11 +145,6 @@ h3 {
 }
 
 h2 {
-    position: absolute;
-    width: 493px;
-    height: 108px;
-    left: 528px;
-    top: 344px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
