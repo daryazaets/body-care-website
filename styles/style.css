@@ -1,148 +1,149 @@
-* {
-    margin: 0;
-}
-
-.content {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.header-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header-navigation {
-    display: flex;
-    align-items: center;
-}
-
-input {
-    outline: none;
-    border: none;
-    width: 232px;
-    height: 25px;
-    border-color: #F3F4F6;
-    background-color: #F3F4F6;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-    margin-bottom: 4px;
-    /* background: url(loupe.svg) no-repeat;
+                        * {
+                        margin: 0;
+                    }
+                    
+                    .content {
+                        width: 1200px;
+                        margin: 0 auto;
+                    }
+                    
+                    .header-container {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    
+                    .header-navigation {
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    input {
+                        width: 232px;
+                        height: 25px;
+                        margin-bottom: 4px;
+                        outline: none;
+                        border: none;
+                        border-radius: 20px;
+                        border-color: #F3F4F6;
+                        background-color: #F3F4F6;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        /* background: url(loupe.svg) no-repeat;
     background-position: 10px;*/
-}
-
-.cart-button {
-    margin-left: 5px;
-    border: 0;
-    background-color: transparent;
-}
-
-.cart-button:hover {
-    background: #ffffff;
-}
-
-.hero-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #284664;
-}
-
-.hero-right-container {
-    background-image: url(../images/ellipses.png);
-    height: 612px;
-    width: 730px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    margin-left: 64px;
-    background-position-x: 40px;
-    color: #284664;
-}
-
-.hero-right-container h2 {
-    max-width: 60%;
-}
-
-h3 {
-    bottom: 250px;
-    font-family: Merriweather;
-    line-height: 30px;
-    font-weight: 50px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-}
-
-h2 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 54px;
-}
-
-h1 {
-    font-weight: 1px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 55px;
-    line-height: 67px;
-}
-
-.main-logo-image {
-    display: flex;
-    margin-bottom: 10px;
-    margin-left: 100px;
-    text-align: center;
-}
-
-.image-group {
-    margin-top: 65px;
-    margin-left: 100px;
-}
-
-.main-big-image {
-    margin-left: 100px;
-}
-
-.main-image {
-    display: flex;
-    margin-left: 0px;
-    /*position:absolute;*/
-    margin-bottom: 65px;
-}
-
-.footer-logo-image {
-    display: flex;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    text-align: center;
-}
-
-.footer-image {
-    display: flex;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    text-align: center;
-}
-
-.footer-all {
-    display: flex;
-    margin-left: 15px;
-    /*position:absolute;*/
-    margin-bottom: 65px;
-}
-
-.footer-email-information {
-    margin-left: 50px;
-}
-
-.footer-links-social-media {
-    display: flex;
-    margin-bottom: 100px;
-    text-align: center;
-    justify-content: space-evenly;
-}
+                    }
+                    
+                    .cart-button {
+                        margin-left: 5px;
+                        border: 0;
+                        background-color: transparent;
+                    }
+                    
+                    .cart-button:hover {
+                        background: #ffffff;
+                    }
+                    
+                    .hero-container {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        color: #284664;
+                    }
+                    
+                    .hero-right-container {
+                        background-image: url(../images/ellipses.png);
+                        height: 612px;
+                        width: 730px;
+                        display: flex;
+                        margin-left: 64px;
+                        align-items: center;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position-x: 40px;
+                        color: #284664;
+                    }
+                    
+                    .hero-right-container h2 {
+                        max-width: 60%;
+                    }
+                    
+                    h3 {
+                        font-family: Merriweather;
+                        font-size: 25px;
+                        font-weight: 50px;
+                        font-style: normal;
+                        font-weight: normal;
+                        line-height: 30px;
+                        bottom: 250px;
+                    }
+                    
+                    h2 {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-size: 50px;
+                        font-weight: 500;
+                        line-height: 54px;
+                    }
+                    
+                    h1 {
+                        font-family: Montserrat;
+                        font-size: 55px;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-weight: 1px;
+                        line-height: 67px;
+                    }
+                    
+                    .main-container {
+                        display: flex;
+                        justify-content: space-between;
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    .main-logo-image {
+                        display: flex;
+                        margin-bottom: 10px;
+                        margin-left: 100px;
+                        text-align: center;
+                    }
+                    
+                    .image-group {
+                        margin-top: 65px;
+                        margin-left: 100px;
+                    }
+                    
+                    .main-big-image {
+                        margin-left: 100px;
+                    }
+                    
+                    .main-image {
+                        display: flex;
+                        margin-left: 0px;
+                        /*position:absolute;*/
+                        margin-bottom: 65px;
+                        .footer-logo-image {
+                            display: flex;
+                            margin-bottom: 100px;
+                            margin-left: 100px;
+                            text-align: center;
+                        }
+                        .footer-image {
+                            display: flex;
+                            margin-bottom: 100px;
+                            margin-left: 100px;
+                            text-align: center;
+                        }
+                        .footer-all {
+                            display: flex;
+                            margin-left: 15px;
+                            /*position:absolute;*/
+                            margin-bottom: 65px;
+                        }
+                        .footer-email-information {
+                            margin-left: 50px;
+                        }
+                        .footer-links-social-media {
+                            display: flex;
+                            margin-bottom: 100px;
+                            text-align: center;
+                            justify-content: space-evenly;
+                        }
