@@ -7,8 +7,6 @@
     margin: 0 auto;
 }
 
-.title-logo-image {}
-
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -47,6 +45,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: #284664;
 }
 
 .hero-right-container {
@@ -59,79 +58,11 @@ input {
     align-items: center;
     margin-left: 64px;
     background-position-x: 40px;
+    color: #284664;
 }
 
 .hero-right-container h2 {
     max-width: 60%;
-}
-
-.main-logo-image {
-    display: flex;
-    margin-bottom: 10px;
-    margin-left: 100px;
-    text-align: center;
-}
-
-.three-image {
-    margin-top: 65px;
-    margin-left: 100px;
-}
-
-.main-big-image {
-    margin-left: 100px;
-}
-
-.main-image {
-    display: flex;
-    margin-left: 0px;
-    /*position:absolute;*/
-    margin-bottom: 65px;
-}
-
-.text {
-    /*
-    width: 20%;
-    position: relative;
-    text-align: left;
-    color: #000;
-    font-family: montserrat black;
-    font-size: 250%;*/
-}
-
-.footer-logo-image {
-    display: flex;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    text-align: center;
-}
-
-.footer-image {
-    display: flex;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    text-align: center;
-}
-
-.footer-all {
-    display: flex;
-    margin-left: 15px;
-    /*position:absolute;*/
-    margin-bottom: 65px;
-}
-
-.footer-email-information {
-    margin-left: 700px;
-}
-
-.footer-links-social-media {
-    display: flex;
-    margin-bottom: 100px;
-    margin-left: 650px;
-    text-align: center;
-}
-
-.h1-h2-tittle {
-    top: 250px;
 }
 
 h3 {
@@ -161,129 +92,57 @@ h1 {
     line-height: 67px;
 }
 
-.circle-pink-big {
-    background: #FEDADA;
-    border: 0.1875em;
-    border-radius: 50%;
-    position: absolute;
-    height: 589px;
-    width: 589px;
-    top: 104px;
-    bottom: 10px;
-    right: 25px;
-    left: 572px;
-    margin-bottom: 200px;
+.main-logo-image {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    text-align: center;
 }
 
-.circle-purple-small {
-    background: #DADBD6;
-    border: 0.1875em;
-    border-radius: 50%;
-    position: absolute;
-    height: 460px;
-    width: 460px;
-    position: absolute;
-    top: 262px;
-    bottom: 10px;
-    right: px;
-    left: 801px;
-    margin-bottom: 200px;
+.three-image {
+    margin-top: 65px;
+    margin-left: 100px;
 }
 
+.main-big-image {
+    margin-left: 100px;
+}
 
-/*
-.main-big-image{
-   /* display: flex;
-    margin-bottom: 65px;
-   /* position:absolute;
+.main-image {
+    display: flex;
     margin-left: 0px;
-}*/
-
-
-/*
-.title-button-cart{
-    margin-left: 10px;
-    border: 0;
-    display: inline;
-
+    /*position:absolute;*/
+    margin-bottom: 65px;
 }
 
-.title-logo-image{
-    margin-top: 50px;
-    display: inline;
+.footer-logo-image {
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.footer-image {
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.footer-all {
+    display: flex;
+    margin-left: 15px;
+    /*position:absolute;*/
+    margin-bottom: 65px;
+}
+
+.footer-email-information {
     margin-left: 50px;
-    vertical-align: middle;
 }
 
-.title-search-button{
-    margin-left: 80px;
-    display: inline;
+.footer-links-social-media {
+    display: flex;
+    margin-bottom: 100px;
+    text-align: center;
+    justify-content: space-evenly;
 }
-*/
-
-
-/*
-html, body{
-    height: 100%;
-}
-
-body{
-    background-color: white;
-}
-
-
-.header{
-    margin-left: 103px;
-    margin-top:  51px;
-    top: 0;
-    right: 0;
-    /*width: 100%
-    padding: 0px;
-}
-
-aside{
-    margin-left: 2%;
-    display: inline;
-    padding: 0;
-    margin-left: 2%;
-}
- 
-nav > ul {
-    margin-left: 20em;
-    flex: 1;
-    display: inline;
-    padding: 0;
-}
-
-nav > ul > li{
-    display: inline-block;
-    list-style: none;
-    padding: 0;
-    margin-right: 10px;
-}
-
-.cart{
-    background-color: white;
-    border: 0;
-}
-
-.search{
-    background-color: #f3f4f6;
-    border: 0;
-}
-
-@media only header and (min-width:768px) {
-    nav{
-        display: inline-block;
-    }
-    aside{
-        margin-left: 2%;
-    }
-}
-
-main > ul >li{
-    display: inline-block;
-    list-style: none;
-    padding: 0;
-    margin-right: 10px;
-}*/
