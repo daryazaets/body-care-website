@@ -49,7 +49,7 @@ input {
 }
 
 .hero-right-container {
-    background-image: url(/images/ellipses.png);
+    background-image: url(../images/ellipses.png);
     height: 612px;
     width: 730px;
     background-size: contain;
