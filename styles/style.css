@@ -98,8 +98,9 @@ h1 {
 }
 
 .image-group {
-    margin-top: 65px;
+    margin-top: 66px;
     margin-left: 100px;
+    display: flex;
 }
 
 .main-big-image {
@@ -110,7 +111,8 @@ h1 {
     display: flex;
     margin-left: 0px;
     /*position:absolute;*/
-    margin-bottom: 65px;
+    margin-bottom: 66px;
+    justify-content: space-between;
 }
 
 .footer-container {
@@ -144,4 +146,13 @@ h1 {
     margin-left: 500px;
     margin-right: 500px;
     justify-content: space-between;
+}
+
+p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #32305F;
 }
