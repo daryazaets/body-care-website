@@ -99,20 +99,19 @@ h1 {
 
 .image-group {
     margin-top: 66px;
-    margin-left: 100px;
     display: flex;
-}
-
-.main-big-image {
-    margin-left: 100px;
 }
 
 .main-image {
     display: flex;
-    margin-left: 0px;
-    /*position:absolute;*/
+    margin-left: 100px;
     margin-bottom: 66px;
     justify-content: space-between;
+}
+
+.main-button {
+    position: 40px;
+    margin-right: 30px;
 }
 
 .footer-container {
@@ -155,4 +154,5 @@ p {
     font-size: 15px;
     line-height: 25px;
     color: #32305F;
+    max-width: 70%;
 }
