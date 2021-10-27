@@ -121,18 +121,18 @@ h1 {
 }
 
 .image-group button {
+    display: flex;
     position: absolute;
-    background-color: transparent;
-    color: #32305F;
-    font-size: 16px;
+    top: 1120px;
+    margin-left: 110px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
-    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
     font-weight: bold;
-    margin-left: 110px;
-    top: 1120px;
+    background-color: transparent;
+    color: #32305F;
 }
 
 .main-button-first {
@@ -148,20 +148,20 @@ h1 {
 }
 
 .main-button-shop-now {
+    display: flex;
     position: absolute;
-    font-family: Montserrat;
-    background-color: transparent;
-    color: #32305F;
-    font-size: 16px;
+    margin-left: 110px;
+    left: 1100px;
+    top: 860px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    display: flex;
-    margin-left: 110px;
-    left: 1100px;
-    top: 860px;
+    font-family: Montserrat;
+    font-size: 16px;
     font-weight: bold;
+    background-color: transparent;
+    color: #32305F;
 }
 
 .footer-container {
