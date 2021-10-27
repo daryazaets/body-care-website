@@ -120,7 +120,7 @@ h1 {
     font-weight: bold;
 }
 
-.main-button-first {
+.image-group button {
     position: absolute;
     background-color: transparent;
     color: #32305F;
@@ -130,58 +130,21 @@ h1 {
     cursor: pointer;
     border-radius: 5px;
     display: flex;
-    margin-left: 110px;
-    left: 250px;
-    top: 1120px;
     font-weight: bold;
+    margin-left: 110px;
+    top: 1120px;
 }
 
 .main-button-first {
-    position: absolute;
-    background-color: transparent;
-    color: #32305F;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    display: flex;
-    margin-left: 110px;
     left: 255px;
-    top: 1120px;
-    font-weight: bold;
 }
 
 .main-button-second {
-    position: absolute;
-    background-color: transparent;
-    color: #32305F;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    display: flex;
-    margin-left: 110px;
     left: 440px;
-    top: 1120px;
-    font-weight: bold;
 }
 
 .main-button-third {
-    position: absolute;
-    background-color: transparent;
-    color: #32305F;
-    font-size: 16px;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    display: flex;
-    margin-left: 110px;
     left: 650px;
-    top: 1120px;
-    font-weight: bold;
 }
 
 .main-button-shop-now {
