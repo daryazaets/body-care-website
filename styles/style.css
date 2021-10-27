@@ -65,13 +65,13 @@ input {
 }
 
 h3 {
+    bottom: 250px;
     font-family: Merriweather;
     font-size: 25px;
     font-weight: 50px;
     font-style: normal;
     font-weight: normal;
     line-height: 30px;
-    bottom: 250px;
 }
 
 h2 {
@@ -112,8 +112,8 @@ h1 {
     font-weight: 500;
     font-size: 15px;
     line-height: 25px;
-    color: #32305F;
     max-width: 78%;
+    color: #32305F;
 }
 
 .main-text-a {
