@@ -180,7 +180,6 @@ h1 {
 .footer-all {
     display: flex;
     margin-left: 15px;
-    /*position:absolute;*/
     margin-bottom: 65px;
 }
 
@@ -188,16 +187,15 @@ h1 {
     margin-left: 50px;
 }
 
-.footer-about-social-media-text {
-    width: 549px;
-    height: 60px;
+.footer {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 16px;
     text-align: center;
     font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
+}
+
+.footer-about-social-media-text {
+    margin-bottom: 16px;
     font-size: 18px;
     line-height: 30px;
     color: #4C4973;
@@ -212,14 +210,8 @@ h1 {
 }
 
 .footer-zays {
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 20px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
     font-size: 15px;
     line-height: 60px;
-    text-align: center;
     color: #B1B0B0;
 }
