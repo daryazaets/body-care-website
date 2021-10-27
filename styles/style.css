@@ -166,36 +166,42 @@ h1 {
 
 .footer-container {
     display: flex;
-    align-items: center;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
-.footer-image {
+.all-footer-elements {
+    display: flex;
+    margin-top: 56px;
+    margin-bottom: 65px;
+    justify-content: space-between;
+}
+
+.footer-images {
     display: flex;
     margin-bottom: 100px;
     margin-left: 100px;
-    text-align: center;
+    align-items: center;
 }
 
-.footer-all {
-    display: flex;
-    margin-left: 15px;
-    margin-bottom: 65px;
+.footer-send-button {
+    border-radius: 50%;
 }
 
-.footer-email-information {
-    margin-left: 50px;
+.footer-see-offers-button {
+    margin-left: 10px;
+    margin-top: 200px;
 }
 
-.footer {
+.footer-about-social-media-text {
+    width: 549px;
+    height: 60px;
+    margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-family: Montserrat;
-}
-
-.footer-about-social-media-text {
-    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
     font-size: 18px;
     line-height: 30px;
     color: #4C4973;
@@ -210,8 +216,11 @@ h1 {
 }
 
 .footer-zays {
-    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
     font-size: 15px;
     line-height: 60px;
+    text-align: center;
     color: #B1B0B0;
 }
