@@ -96,17 +96,108 @@ h1 {
     margin-top: 70px;
 }
 
-.image-group {
-    margin-top: 66px;
-    display: flex;
-}
-
 .main-image {
     display: flex;
     margin-left: 100px;
 }
 
-a {
+.image-group {
+    margin-top: 66px;
+    display: flex;
+}
+
+.main-paragraph {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #32305F;
+    max-width: 78%;
+}
+
+.main-text-a {
+    font-weight: bold;
+}
+
+.main-button-first {
+    position: absolute;
+    background-color: transparent;
+    color: #32305F;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 110px;
+    left: 250px;
+    top: 1120px;
+    font-weight: bold;
+}
+
+.main-button-first {
+    position: absolute;
+    background-color: transparent;
+    color: #32305F;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 110px;
+    left: 255px;
+    top: 1120px;
+    font-weight: bold;
+}
+
+.main-button-second {
+    position: absolute;
+    background-color: transparent;
+    color: #32305F;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 110px;
+    left: 440px;
+    top: 1120px;
+    font-weight: bold;
+}
+
+.main-button-third {
+    position: absolute;
+    background-color: transparent;
+    color: #32305F;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 110px;
+    left: 650px;
+    top: 1120px;
+    font-weight: bold;
+}
+
+.main-button-shop-now {
+    position: absolute;
+    font-family: Montserrat;
+    background-color: transparent;
+    color: #32305F;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 110px;
+    left: 1100px;
+    top: 860px;
     font-weight: bold;
 }
 
@@ -141,14 +232,4 @@ a {
     margin-left: 500px;
     margin-right: 500px;
     justify-content: space-between;
-}
-
-p {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-    color: #32305F;
-    max-width: 78%;
 }
