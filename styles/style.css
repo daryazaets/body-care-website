@@ -183,9 +183,25 @@ h1 {
     align-items: center;
 }
 
+.footer-text-over-input {
+    width: 549px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4C4973;
+}
+
 .fo-search {
     width: 350px;
     height: 40px;
+    margin-left: 200px;
     border: 3px solid #EEDBDC;
     border-radius: 70px;
     outline: none;
@@ -194,13 +210,18 @@ h1 {
 }
 
 .footer-send-button {
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
+    border: 3px solid #EEDBDC;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #32305F;
 }
 
-.footer-see-offers-button {
-    margin-left: 10px;
-    margin-top: 200px;
-}
+.footer-see-offers-button {}
 
 .footer-about-social-media-text {
     width: 549px;
@@ -215,6 +236,12 @@ h1 {
     font-size: 18px;
     line-height: 30px;
     color: #4C4973;
+}
+
+.footer-send-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-links-social-media {
