@@ -182,6 +182,45 @@ h1 {
     align-items: center;
 }
 
+.footer-arrow-button {
+    display: flex;
+    position: absolute;
+    top: 1840px;
+    margin-left: 40px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    justify-content: space-between;
+    color: #32305F;
+}
+
+.footer-left-arrow {
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    justify-content: space-between;
+    color: #32305F;
+}
+
+.footer-right-arrow {
+    border: none;
+    cursor: pointer;
+    margin-left: 550px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    justify-content: space-between;
+    color: #32305F;
+}
+
 .footer-text-over-input {
     width: 549px;
     height: 60px;
