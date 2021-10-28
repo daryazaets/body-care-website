@@ -150,8 +150,7 @@ h1 {
 .main-button-shop-now {
     display: flex;
     position: absolute;
-    margin-left: 110px;
-    left: 1100px;
+    left: 1200px;
     top: 860px;
     padding: 12px 24px;
     border: none;
@@ -221,7 +220,17 @@ h1 {
     color: #32305F;
 }
 
-.footer-see-offers-button {}
+.footer-see-offers-button {
+    margin-left: 470px;
+    margin-top: 200px;
+    cursor: pointer;
+    border: none;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #32305F;
+}
 
 .footer-about-social-media-text {
     width: 549px;
