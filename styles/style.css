@@ -163,6 +163,8 @@ h1 {
     color: #32305F;
 }
 
+.footer {}
+
 .footer-container {
     display: flex;
     margin-top: 100px;
