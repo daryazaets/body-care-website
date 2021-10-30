@@ -98,12 +98,20 @@ h1 {
 
 .main-image {
     display: flex;
-    margin-left: 100px;
 }
 
 .image-group {
     margin-top: 66px;
     display: flex;
+    justify-content: space-between;
+}
+
+.main-text-second {
+    margin-left: 20px;
+}
+
+.main-text-third {
+    margin-left: 20px;
 }
 
 .main-paragraph {
@@ -138,6 +146,7 @@ h1 {
 .main-button-shop-now {
     display: flex;
     position: absolute;
+    margin-left: 380px;
     top: 860px;
     border: none;
     cursor: pointer;
