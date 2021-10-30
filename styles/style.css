@@ -163,7 +163,11 @@ h1 {
     color: #32305F;
 }
 
-.footer {}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .footer-container {
     display: flex;
@@ -188,7 +192,7 @@ h1 {
 .footer-images {
     display: flex;
     margin-bottom: 100px;
-    margin-left: 100px;
+    margin-left: 50px;
     align-items: center;
 }
 
@@ -196,8 +200,6 @@ h1 {
     display: flex;
     position: absolute;
     top: 1840px;
-    margin-left: 40px;
-    padding: 12px 24px;
     border: none;
     cursor: pointer;
     font-family: Montserrat;
@@ -222,7 +224,7 @@ h1 {
 .footer-right-arrow {
     border: none;
     cursor: pointer;
-    margin-left: 590px;
+    margin-left: 610px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: bold;
