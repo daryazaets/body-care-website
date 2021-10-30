@@ -10,6 +10,7 @@
 .header-container {
     display: flex;
     justify-content: space-between;
+    user-select: none;
 }
 
 .header-navigation {
@@ -94,6 +95,7 @@ h1 {
 .main-container {
     display: flex;
     margin-top: 70px;
+    user-select: none;
 }
 
 .main-image {
@@ -168,6 +170,7 @@ h1 {
 .footer-container {
     display: flex;
     margin-top: 100px;
+    user-select: none;
 }
 
 .all-footer-elements {
@@ -233,7 +236,6 @@ h1 {
     width: 549px;
     height: 60px;
     margin-left: auto;
-    margin-right: auto;
     text-align: right;
     font-family: Montserrat;
     font-style: normal;
@@ -277,6 +279,7 @@ h1 {
     font-weight: bold;
     background-color: transparent;
     color: #32305F;
+    user-select: none;
 }
 
 .footer-about-social-media-text {
@@ -292,6 +295,7 @@ h1 {
     font-size: 18px;
     line-height: 30px;
     color: #4C4973;
+    user-select: none;
 }
 
 .footer-send-block {
@@ -316,4 +320,5 @@ h1 {
     line-height: 60px;
     text-align: center;
     color: #B1B0B0;
+    user-select: none;
 }
