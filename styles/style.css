@@ -135,30 +135,17 @@ h1 {
     color: #32305F;
 }
 
-.main-button-first {
-    left: 255px;
-}
-
-.main-button-second {
-    left: 440px;
-}
-
-.main-button-third {
-    left: 650px;
-}
-
 .main-button-shop-now {
     display: flex;
     position: absolute;
-    left: 1200px;
     top: 860px;
-    padding: 12px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: bold;
+    justify-content: space-between;
     background-color: transparent;
     color: #32305F;
 }
