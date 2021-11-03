@@ -122,7 +122,7 @@ h1 {
     font-weight: bold;
 }
 
-.image-group button {
+.image-group a {
     display: flex;
     position: absolute;
     top: 1120px;
@@ -134,6 +134,7 @@ h1 {
     font-size: 16px;
     font-weight: bold;
     background-color: transparent;
+    text-decoration: none;
     color: #32305F;
 }
 
@@ -150,6 +151,7 @@ h1 {
     font-weight: bold;
     justify-content: space-between;
     background-color: transparent;
+    text-decoration: none;
     color: #32305F;
 }
 
