@@ -118,9 +118,9 @@ h1 {
     color: #32305F;
 }
 
-.main-text-a {
-    font-weight: bold;
-}
+b {
+    font-weight:bolder;
+}  
 
 .image-group a {
     display: flex;
