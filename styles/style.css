@@ -93,9 +93,9 @@ h1 {
 }
 
 .main-container {
+    margin-top: 90px;
+    user-select: none;      /* определяет может ли пользователь выбрать(выделить) текст */
     display: flex;
-    margin-top: 70px;
-    user-select: none;
 }
 
 .main-image {
@@ -105,9 +105,12 @@ h1 {
 .image-group {
     margin-top: 66px;
     display: flex;
-    justify-content: space-between;
+ 
+  
+    margin-left: 0px;
+    align-items: center;
 }
-
+    
 .main-paragraph {
     font-family: Montserrat;
     font-style: normal;
@@ -123,36 +126,37 @@ b {
 }  
 
 .image-group a {
-    display: flex;
-    position: absolute;
-    top: 1120px;
-    margin-left: 110px;
-    padding: 12px 24px;
+    position: relative;
     border: none;
     cursor: pointer;
+    transform: translate(-50%, -50%);
     font-family: Montserrat;
     font-size: 16px;
     font-weight: bold;
     background-color: transparent;
     text-decoration: none;
     color: #32305F;
+    bottom: 2%;
+    right: 13%;
 }
 
 .main-button-shop-now {
-    display: flex;
-    position: absolute;
-    margin-left: 380px;
-    top: 860px;
+    position: relative;
+ 
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: bold;
-    justify-content: space-between;
+  
     background-color: transparent;
     text-decoration: none;
     color: #32305F;
+    bottom: 93%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 .footer {
@@ -163,7 +167,7 @@ b {
 
 .footer-container {
     display: flex;
-    margin-top: 100px;
+    margin-top: 90px;
     user-select: none;
 }
 
@@ -185,10 +189,10 @@ b {
 .footer-images {
     display: flex;
     margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: 0px;
     align-items: center;
 }
-
+/*
 .footer-arrow-button {
     display: flex;
     position: absolute;
@@ -201,7 +205,7 @@ b {
     background-color: transparent;
     justify-content: space-between;
     color: #32305F;
-}
+}*/
 
 .footer-left-arrow {
     border: none;
@@ -210,19 +214,19 @@ b {
     font-size: 16px;
     font-weight: bold;
     background-color: transparent;
-    justify-content: space-between;
+margin-top: 135px;
     color: #32305F;
 }
 
 .footer-right-arrow {
     border: none;
     cursor: pointer;
-    margin-left: 610px;
+    margin-top: 135px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: bold;
     background-color: transparent;
-    justify-content: space-between;
+   
     color: #32305F;
 }
 
@@ -264,8 +268,7 @@ b {
 }
 
 .footer-see-offers-button {
-    margin-left: 470px;
-    margin-top: 200px;
+    position: relative;
     cursor: pointer;
     border: none;
     font-family: Montserrat;
@@ -274,6 +277,17 @@ b {
     background-color: transparent;
     color: #32305F;
     user-select: none;
+    text-decoration: none;
+    color: #32305F;
+    /* display: flex; */
+    text-align: right;
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    text-align: right;
+
+
+
 }
 
 .footer-about-social-media-text {
