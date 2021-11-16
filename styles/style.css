@@ -118,7 +118,7 @@ h1 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    /* font-size: 15px; */
+    font-size: 17px; 
     line-height: 25px;
     max-width: 65%;
     color: #32305F;
@@ -129,7 +129,7 @@ b {
     font-weight:bolder;
 }  
 
-.image-group a {
+.main-button-first {
     position: relative;
     border: none;
     cursor: pointer;
@@ -142,6 +142,42 @@ b {
     color: #32305F;
     bottom: 2%;
     right: 13%;
+}
+
+.main-button-second{
+    position: relative;
+    border: none;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: none;
+    color: #32305F;
+    bottom: 2%;
+    right: 13%;
+}
+
+.main-button-third{
+    position: relative;
+    border: none;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: transparent;
+    text-decoration: none;
+    color: #32305F;
+    bottom: 2%;
+    right: 13%;
+}
+
+.main-link {
+    cursor: pointer;
+    
+    text-decoration: none;
 }
 
 .main-button-shop-now {
